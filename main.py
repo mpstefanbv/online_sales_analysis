@@ -12,11 +12,7 @@ def main():
     manager.add_product(p2)
     manager.add_product(p3)
 
-    print("Produse disponibile:")
-    manager.display_products()
-
-    total_value = manager.total_inventory_value()
-    print(f"Valoarea totala a inventarului: {total_value}")
+   # am eliminat afisarea inventarului si valoarea totala
 
 if __name__ == "__main__":
     main()
